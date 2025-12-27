@@ -20,3 +20,5 @@ System.out.println("sum of two numbers:"+result);
 }
 ```
 # output
+![output of Myclass](EXPERIMENT.2A.png)
+
