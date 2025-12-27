@@ -51,4 +51,35 @@ class overloadExample {
 }
 ```
 # output
-![output of overloadExample]
+![output of overloadExample](EXPERIMENT.2B.png)
+# EXPERIMENT-2C
+## Title:Student
+```java
+class Student {
+
+    String name;
+    int age;
+    int marks;
+
+    Student(String n, int a, int m) {
+        name = n;
+        age = a;
+        marks = m;
+    }
+
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Marks: " + marks);
+    }
+
+    public static void main(String[] args) {
+
+        Student s1 = new Student("Alice", 20, 85);
+        s1.display();
+    }
+}
+```
+# output
+![output of Student](EXPERIMENT.2C.png)
+
